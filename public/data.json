@@ -1,0 +1,54 @@
+{
+    "images": [
+        {
+            "time": "0:0",
+            "src": "img1.png"
+        },
+        {
+            "time": "0:2.5",
+            "src": "img2.png"
+        },
+        {
+            "time": "0:5",
+            "src": "img3.png"
+        }
+    ],
+    "texts": [
+        {
+            "author": "Bob",
+            "color": "#ffffff",
+            "time": "0:0.5",
+            "text": "message 1"
+        },
+        {
+            "author": "Bob",
+            "color": "#ffffff",
+            "time": "0:2",
+            "text": "message 2"
+        },
+        {
+            "author": "Bill",
+            "color": "#ff0000",
+            "time": "0:2.5",
+            "text": "message 3"
+        },
+        {
+            "author": "Bob",
+            "color": "#00ff00",
+            "time": "0:4.3",
+            "text": "message 4"
+        },
+        {
+            "author": "Bill",
+            "color": "#ffffff",
+            "time": "0:5.5",
+            "text": "message 5"
+        },
+        {
+            "author": "Bob",
+            "color": "#ffffff",
+            "time": "0:7",
+            "text": "message 6"
+        }
+    ]
+}

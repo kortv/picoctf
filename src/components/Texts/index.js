@@ -22,6 +22,11 @@ class Texts extends Component {
     })
   }
 
+  componentDidUpdate(prevProps, prevState) {
+    this.chat.scrollTop = this.chat.scrollHeight
+  }
+  
+
   render() {
     const { texts } = this.state;
     let isLeftSide = false;
@@ -34,7 +39,11 @@ class Texts extends Component {
         <ChatRight key={index} {...obj} isSameAuthor={isSameAuthor} />
     })
     return (
-      <div className="b-story_board" style={{ overflow: 'auto' }}>
+      <div
+        className="b-story_board"
+        style={{ overflow: 'auto' }}
+        ref={(e) => this.chat = e}
+      >
         {storyList}
       </div>
     );

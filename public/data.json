@@ -1,20 +1,20 @@
 {
     "images": [
         {
-            "time": "0:6.8",
-            "src": "\/img\/1.png"
+            "time": "0:0.0",
+            "src": "\/img\/1.jpeg"
         },
         {
-            "time": "0:9.7",
-            "src": "\/img\/2.png"
+            "time": "0:29.7",
+            "src": "\/img\/2.jpeg"
         },
         {
-            "time": "0:1.7",
-            "src": "\/img\/3.png"
+            "time": "0:51.7",
+            "src": "\/img\/3.jpeg"
         },
         {
-            "time": "0:0.3",
-            "src": "\/img\/4.png"
+            "time": "1:0.3",
+            "src": "\/img\/4.jpeg"
         }
     ],
     "texts": [
@@ -27,8 +27,14 @@
         {
             "author": "Madalyn",
             "color": "#fe74f4",
-            "time": "1:6.7",
+            "time": "0:16.7",
             "text": "Fugiat nulla sit impedit molestiae quia."
+        },
+        {
+            "author": "Madalyn",
+            "color": "#fe74f4",
+            "time": "0:26.7",
+            "text": "Neque sint quas dicta rerum."
         },
         {
             "author": "Ivah",

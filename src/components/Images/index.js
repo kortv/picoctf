@@ -6,24 +6,23 @@ class Images extends Component {
     super(props);
     this.state = {
       current: '',
-      images: this.props.images,
     };
   }
 
   componentDidMount() {
-    this.state.images.forEach((obj) => {
-      const time = obj.time.split(':')[1];
+    this.props.images.forEach((obj) => {
+      const [minuts, sec] = obj.time.split(':');
       setTimeout(() => {
         this.setState({
           current: obj.src,
         })
-      }, time * 1000)
+      }, minuts * 60000 + sec * 1000)
     })
   }
 
   render() {
     return (
-      <div>
+      <div className="b-story_img">
         <img src={this.state.current} alt="" />
       </div>
     );

@@ -1,5 +1,281 @@
-body {
+* {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body,
+html,
+.app,
+#root {
+  height: 100%;
+  overflow: hidden;
+}
+
+#root {
+  background-color: #222;
+}
+
+.app {
+  width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.b-story_img {
+  background-color: #333;
+  height: 50%;
+  overflow: hidden;
+  display: flex;
+}
+
+.b-story_img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.b-story_board {
+  background-color: #222222;
+  width: 100%;
+  height: 50%;
+  padding-top: 40px;
+}
+
+.b-controls {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-family: Arial, sans-serif;
+}
+
+.b-controls_control {
+  display: inline-block;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.b-controls_icon {
+  display: inline-block;
+  vertical-align: middle;
+  width: 19px;
+  height: 19px;
+}
+
+.b-controls_icon--left {
+  margin-right: 5px;
+}
+
+.b-controls_icon--right {
+  margin-left: 5px;
+}
+
+.b-controls_icon svg {
+  width: 19px;
+  height: 19px;
+}
+
+.b-controls_text {
+  display: inline-block;
+  vertical-align: middle;
+  color: #808080;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.b-chat_left {
+  font-family: Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+.b-chat_left .b-chat_bubble {
+  border: 2px solid #424242;
+  border-radius: 7px;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding: 20px;
+  color: inherit;
+  background-color: #191919;
+  margin-left: 50px;
+  position: relative;
+}
+
+.b-chat_left .b-chat_bubble span {
+  display: block;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.b-chat_left .b-chat_bubble span:last-child {
+  margin: 0;
+}
+
+.b-chat_left .b-nameplate {
+  background-color: #191919;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  padding: 3px 0 3px 30px;
+  text-transform: uppercase;
+  color: inherit;
+  font-size: 14px;
+}
+
+.b-chat_left .b-thought div:nth-child(1) {
+  position: absolute;
+  background-color: #191919;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  left: -60px;
+  top: 25px;
+}
+
+.b-chat_left .b-thought div:nth-child(2) {
+  position: absolute;
+  background-color: #191919;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  left: -50px;
+  top: 40px;
+}
+
+.b-chat_left .b-thought div:nth-child(3) {
+  position: absolute;
+  background-color: #191919;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  left: -30px;
+  top: 50px;
+}
+
+.b-chat_left .b-talk:after,
+.b-chat_left .b-talk:before {
+  right: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.b-chat_left .b-talk:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-right-color: #191919;
+  border-width: 10px;
+  margin-top: -10px;
+}
+
+.b-chat_left .b-talk:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-right-color: #424242;
+  border-width: 13px;
+  margin-top: -13px;
+}
+
+.b-chat_right {
+  font-family: Arial, sans-serif;
+  margin-bottom: 30px;
+  text-align: right;
+}
+
+.b-chat_right .b-chat_bubble {
+  border: 2px solid #424242;
+  border-radius: 7px;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding: 20px;
+  color: inherit;
+  background-color: #2d2d2d;
+  margin-right: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.b-chat_right .b-chat_bubble span {
+  display: block;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.b-chat_right .b-chat_bubble span:last-child {
+  margin: 0;
+}
+
+.b-chat_right .b-nameplate {
+  background-color: #2d2d2d;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  padding: 3px 30px 3px 0;
+  text-transform: uppercase;
+  color: inherit;
+  font-size: 14px;
+}
+
+.b-chat_right .b-thought div:nth-child(1) {
+  position: absolute;
+  background-color: #2d2d2d;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  right: -60px;
+  top: 25px;
+}
+
+.b-chat_right .b-thought div:nth-child(2) {
+  position: absolute;
+  background-color: #2d2d2d;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  right: -50px;
+  top: 40px;
+}
+
+.b-chat_right .b-thought div:nth-child(3) {
+  position: absolute;
+  background-color: #2d2d2d;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  right: -30px;
+  top: 50px;
+}
+
+.b-chat_right .b-talk:after,
+.b-chat_right .b-talk:before {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.b-chat_right .b-talk:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: #2d2d2d;
+  border-width: 10px;
+  margin-top: -10px;
+}
+
+.b-chat_right .b-talk:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-left-color: #424242;
+  border-width: 13px;
+  margin-top: -13px;
 }

@@ -1,9 +1,10 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actionCreators from '../../actions';
 
 import Images from '../Images';
+import Texts from '../Texts';
 
 class MainLayout extends Component {
 
@@ -19,8 +20,9 @@ class MainLayout extends Component {
     } = this.props;
 
     return (
-      <div>
+      <div className='app'>
         {(images && images.length) ? <Images images={images} /> : null}
+        {(texts && texts.length) ? <Texts texts={texts} /> : null}
       </div>
     );
   }
@@ -35,20 +37,5 @@ const mapStateToProps = function (store) {
 const mapDispatchToProps = (dispatch) => ({
   actions: bindActionCreators(actionCreators, dispatch),
 });
-
-MainLayout.propTypes = {
-  /*user: PropTypes.shape({
-    courses: PropTypes.object.isRequired,
-  }).isRequired,
-  params: PropTypes.object.isRequired,
-  courses: PropTypes.object.isRequired,
-  actions: PropTypes.shape({
-    importCourse: PropTypes.func.isRequired,
-    selectBook: PropTypes.func.isRequired,
-  }).isRequired,
-  location: PropTypes.object.isRequired,
-  children: PropTypes.element.isRequired,*/
-};
-
 
 export default connect(mapStateToProps, mapDispatchToProps)(MainLayout);

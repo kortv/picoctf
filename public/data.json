@@ -1,54 +1,88 @@
 {
     "images": [
         {
-            "time": "0:0",
-            "src": "img1.png"
+            "time": "0:6.8",
+            "src": "\/img\/1.png"
         },
         {
-            "time": "0:2.5",
-            "src": "img2.png"
+            "time": "0:9.7",
+            "src": "\/img\/2.png"
         },
         {
-            "time": "0:5",
-            "src": "img3.png"
+            "time": "0:1.7",
+            "src": "\/img\/3.png"
+        },
+        {
+            "time": "0:0.3",
+            "src": "\/img\/4.png"
         }
     ],
     "texts": [
         {
-            "author": "Bob",
-            "color": "#ffffff",
-            "time": "0:0.5",
-            "text": "message 1"
+            "author": "Bennie",
+            "color": "#04e50e",
+            "time": "1:9.9",
+            "text": "Id quibusdam distinctio cum nobis."
         },
         {
-            "author": "Bob",
-            "color": "#ffffff",
-            "time": "0:2",
-            "text": "message 2"
+            "author": "Madalyn",
+            "color": "#fe74f4",
+            "time": "1:6.7",
+            "text": "Fugiat nulla sit impedit molestiae quia."
         },
         {
-            "author": "Bill",
-            "color": "#ff0000",
-            "time": "0:2.5",
-            "text": "message 3"
+            "author": "Ivah",
+            "color": "#269747",
+            "time": "1:8.1",
+            "text": "Vel aut tempore odit natus amet."
         },
         {
-            "author": "Bob",
-            "color": "#00ff00",
-            "time": "0:4.3",
-            "text": "message 4"
+            "author": "Elijah",
+            "color": "#88047d",
+            "time": "1:8.2",
+            "text": "Perspiciatis et omnis qui modi."
         },
         {
-            "author": "Bill",
-            "color": "#ffffff",
-            "time": "0:5.5",
-            "text": "message 5"
+            "author": "Anahi",
+            "color": "#7219ce",
+            "time": "0:4.4",
+            "text": "Eos neque qui molestias occaecati necessitatibus est."
         },
         {
-            "author": "Bob",
-            "color": "#ffffff",
-            "time": "0:7",
-            "text": "message 6"
+            "author": "Viola",
+            "color": "#e8ef11",
+            "time": "1:3.7",
+            "text": "Enim voluptatem debitis iure modi."
+        },
+        {
+            "author": "Andy",
+            "color": "#fe79b5",
+            "time": "1:3.6",
+            "text": "Neque sint quas dicta rerum."
+        },
+        {
+            "author": "Elza",
+            "color": "#55cb18",
+            "time": "1:8.4",
+            "text": "Facere ut non quam eligendi temporibus."
+        },
+        {
+            "author": "Eveline",
+            "color": "#0815b2",
+            "time": "1:9.6",
+            "text": "Et aut repellendus repellat praesentium."
+        },
+        {
+            "author": "Constance",
+            "color": "#10f52b",
+            "time": "1:7.9",
+            "text": "Est harum perferendis incidunt et."
+        },
+        {
+            "author": "Adele",
+            "color": "#5079f4",
+            "time": "0:2.9",
+            "text": "Alias est ex in perferendis repellendus rerum."
         }
     ]
 }

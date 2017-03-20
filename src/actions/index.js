@@ -29,14 +29,9 @@ export function fetchCourse() {
   return (dispatch) => {
     dispatch(coursePending());
     return (
-      fetch(COURSE_PATH, { mode: 'no-cors' })
-        .then((response) => {
-          return response.json();
-        })
-        .then((data) => {
-          console.log(data);
-          return dispatch(courseFulfilled(data))}
-        )
+      fetch(COURSE_PATH)
+        .then((response) => response.json())
+        .then((data) => dispatch(courseFulfilled(data)))
         .catch((error) => dispatch(courseRejected(error)))
     );
   };

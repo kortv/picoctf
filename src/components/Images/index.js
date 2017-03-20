@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { COURSE_PATH } from '../../constants';
 
 class Images extends Component {
 
@@ -14,7 +15,7 @@ class Images extends Component {
       const [minuts, sec] = obj.time.split(':');
       setTimeout(() => {
         this.setState({
-          current: obj.src,
+          current: `${COURSE_PATH}${obj.src}`,
         })
       }, minuts * 60000 + sec * 1000)
     })

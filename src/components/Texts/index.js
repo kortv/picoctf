@@ -4,17 +4,17 @@ import ChatLeft from './ChatLeft';
 import ChatRight from './ChatRight';
 
 const defaultTexts = [{
-  author: "Haskell",
-  color: "#a8db99",
-  time: "0:0",
-  text: "Fancy meeting you here?"
-}, {
     author: "Gretchen",
     color: "#b659f6",
     time: "0:0",
     text: `<span>(Ah, there's my lift.)</span>
       <span>(Sweet, it's a self-driving one!)</span>
       <span>(I've always wanted to go in one of these.)</span>`
+  }, {
+    author: "Haskell",
+    color: "#a8db99",
+    time: "0:0",
+    text: "Fancy meeting you here."
   }]
 
 class Texts extends Component {

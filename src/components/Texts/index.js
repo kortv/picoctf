@@ -3,6 +3,20 @@ import get from 'lodash.get';
 import ChatLeft from './ChatLeft';
 import ChatRight from './ChatRight';
 
+const defaultTexts = [{
+  author: "Haskell",
+  color: "#a8db99",
+  time: "0:0",
+  text: "Fancy meeting you here?"
+}, {
+    author: "Gretchen",
+    color: "#b659f6",
+    time: "0:0",
+    text: `<span>(Ah, there's my lift.)</span>
+      <span>(Sweet, it's a self-driving one!)</span>
+      <span>(I've always wanted to go in one of these.)</span>`
+  }]
+
 class Texts extends Component {
   constructor(props) {
     super(props);
@@ -30,7 +44,7 @@ class Texts extends Component {
   render() {
     const { texts } = this.state;
     let isLeftSide = false;
-    const storyList = texts.map((obj, index) => {
+    const storyList = [...defaultTexts, ...texts].map((obj, index) => {
       const isSameAuthor = obj.author === get(texts, [index - 1, 'author']);
       isLeftSide = isSameAuthor ? isLeftSide : !isLeftSide
 

@@ -41,7 +41,6 @@ class Texts extends Component {
     return (
       <div
         className="b-story_board"
-        style={{ overflow: 'auto' }}
         ref={(e) => this.chat = e}
       >
         {storyList}

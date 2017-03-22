@@ -1,0 +1,273 @@
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body, html, .app, #root
+  height: 100%
+  overflow: hidden
+
+#root
+  background-color: #222
+
+.app
+  width: 1024px
+  margin: 0 auto
+  position: relative
+
+.b-story_img
+  width: 100%
+  height: 50%
+  overflow: hidden
+  text-align: center
+  img
+    height: 105%
+    margin-bottom: -20px
+    display: inline-block
+
+.b-story_board
+  background-color: #222222
+  width: 100%
+  height: 50%
+  overflow: auto
+  padding-top: 20px
+  position: absolute
+  bottom: 0
+
+.b-controls
+  position: absolute
+  right: 0
+  bottom: 0
+  font-family: Arial, sans-serif
+  &_control
+    display: inline-block
+    padding: 5px 15px
+    cursor: pointer
+  &_icon
+    display: inline-block
+    vertical-align: middle
+    width: 22px
+    height: 22px
+    &--left
+      margin-right: 5px
+    &--right
+      margin-left: 5px
+    svg
+      width: 22px
+      height: 22px
+  &_text
+    display: inline-block
+    vertical-align: middle
+    color: #808080
+    font-size: 12px
+    text-transform: uppercase
+
+.b-chat_left
+  font-family: Arial, sans-serif
+  margin-bottom: 30px
+  .b-chat_bubble
+    border: 1px solid #424242
+    border-radius: 7px
+    display: inline-block
+    vertical-align: top
+    width: 50%
+    padding: 20px
+    color: inherit
+    background-color: #191919
+    margin-left: 50px
+    position: relative
+    span
+      display: block
+      margin-bottom: 10px
+      font-style: italic
+      &:last-child
+        margin: 0
+  .b-nameplate
+    background-color: #191919
+    display: inline-block
+    vertical-align: top
+    width: 20%
+    padding: 3px 0 3px 30px
+    text-transform: uppercase
+    color: inherit
+    font-size: 14px
+  .b-thought
+    div
+      &:nth-child(1)
+        position: absolute
+        background-color: #191919
+        width: 10px
+        height: 10px
+        border: 1px solid #424242
+        border-radius: 50%
+        left: -60px
+        top: 25px
+      &:nth-child(2)
+        position: absolute
+        background-color: #191919
+        width: 15px
+        height: 15px
+        border: 1px solid #424242
+        border-radius: 50%
+        left: -50px
+        top: 40px
+      &:nth-child(3)
+        position: absolute
+        background-color: #191919
+        width: 20px
+        height: 20px
+        border: 1px solid #424242
+        border-radius: 50%
+        left: -30px
+        top: 50px
+  .b-talk
+    //
+  .b-talk:after
+    right: 100%
+    top: 40%
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    position: absolute
+    pointer-events: none
+
+  .b-talk:before
+    right: 100%
+    top: 39.5%
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    position: absolute
+    pointer-events: none
+
+  .b-talk:after
+    //border-color: rgba(136, 183, 213, 0)
+    //border-right-color: #191919
+    //border-width: 10px
+    //margin-top: -10px
+    width: 0
+    height: 0
+    border-style: solid
+    border-width: 0 12px 20px 0
+    border-color: transparent #191919 transparent transparent
+
+
+  .b-talk:before
+    //border-color: rgba(194, 225, 245, 0)
+    //border-right-color: #424242
+    //border-width: 13px
+    //margin-top: -13px
+    width: 0
+    height: 0
+    border-style: solid
+    border-width:  0 14px 24px 0
+    border-color: transparent #424242 transparent transparent
+
+
+.b-chat_right
+  font-family: Arial, sans-serif
+  margin-bottom: 30px
+  text-align: right
+  .b-chat_bubble
+    border: 1px solid #424242
+    border-radius: 7px
+    display: inline-block
+    vertical-align: top
+    width: 50%
+    padding: 20px
+    color: inherit
+    background-color: #2d2d2d
+    margin-right: 50px
+    position: relative
+    z-index: 2
+    span
+      display: block
+      margin-bottom: 10px
+      font-style: italic
+      &:last-child
+        margin: 0
+  .b-nameplate
+    background-color: #2d2d2d
+    display: inline-block
+    vertical-align: top
+    width: 20%
+    padding: 3px 30px 3px 0
+    text-transform: uppercase
+    color: inherit
+    font-size: 14px
+  .b-thought
+    div
+      &:nth-child(1)
+        position: absolute
+        background-color: #2d2d2d
+        width: 10px
+        height: 10px
+        border: 1px solid #424242
+        border-radius: 50%
+        right: -60px
+        top: 25px
+      &:nth-child(2)
+        position: absolute
+        background-color: #2d2d2d
+        width: 15px
+        height: 15px
+        border: 1px solid #424242
+        border-radius: 50%
+        right: -50px
+        top: 40px
+      &:nth-child(3)
+        position: absolute
+        background-color: #2d2d2d
+        width: 20px
+        height: 20px
+        border: 1px solid #424242
+        border-radius: 50%
+        right: -30px
+        top: 50px
+  .b-talk
+    //
+  .b-talk:after
+    left: 100%
+    top: 40%
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    position: absolute
+    pointer-events: none
+
+  .b-talk:before
+    left: 100%
+    top: 37.5%
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    position: absolute
+    pointer-events: none
+
+  .b-talk:after
+    //border-color: rgba(136, 183, 213, 0)
+    //border-left-color: #2d2d2d
+    //border-width: 10px
+    //margin-top: -10px
+    width: 0
+    height: 0
+    border-style: solid
+    border-width: 20px 12px 0 0
+    border-color: #2d2d2d transparent transparent transparent
+
+  .b-talk:before
+    //border-color: rgba(194, 225, 245, 0)
+    //border-left-color: #424242
+    //border-width: 13px
+    //margin-top: -13px
+    width: 0
+    height: 0
+    border-style: solid
+    border-width: 24px 14px 0 0
+    border-color: #424242 transparent transparent transparent
+
+

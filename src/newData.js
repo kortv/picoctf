@@ -1,7 +1,7 @@
 export const  screens = [
   { 
     screen: 'chat',  // chat, imgChat, headScreen, img
-    pause: '',      // ? "0:0.0" || '', default '0:3.0' pause after ending animation screen
+    pause: '',      // ? "0" || '', default '0:3.0' pause after ending animation screen
     bg: '',         // ? path to img '/img/1.jpeg' || '',
     events: [
       {

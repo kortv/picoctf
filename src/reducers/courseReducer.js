@@ -1,14 +1,18 @@
+import get from 'lodash.get';
 import {
   COURSE_PENDING,
   COURSE_FULFILLED,
   COURSE_REJECTED,
+  SET_SCREEN,
+  SET_EVENT,
 } from '../constants';
 
-import { screens } from '../newData';
-
-const initialState = { screens, currentScreen: {
-  screen: 'ImgChat',
-} };
+const initialState = {
+  screens: [],
+  currentScreen: {
+    screen: 'Chat',
+  }
+};
 
 const coursesReducer = (state = initialState, action) => {
   switch (action.type) {
@@ -35,6 +39,21 @@ const coursesReducer = (state = initialState, action) => {
         error: true,
         errorDetails: action.response,
         ...action.payload,
+      };
+
+    case SET_SCREEN:
+      return {
+        ...state,
+        currentScreen: {
+          ...get(state, ['screens', action.payload], {}),
+          index: action.payload,
+        }
+      };
+
+    case SET_EVENT:
+      return {
+        ...state,
+        event: action.payload,
       };
 
     default:

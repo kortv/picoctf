@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import 'babel-polyfill';
 
-import MainLayout from './MainLayout';
+import App from './App';
 import './index.css';
 import store from './store';
 
 ReactDOM.render(
   <Provider store={store}>
-    <MainLayout />
+    <App />
   </Provider>,
   document.getElementById('root')
 );

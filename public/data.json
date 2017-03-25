@@ -6,7 +6,19 @@
             "bg": "",
             "events": [
                 {
-                    "type": "",
+                    "type": "text",
+                    "value": "",
+                    "author": "",
+                    "duration": ""
+                },
+                {
+                    "type": "img",
+                    "value": "",
+                    "author": "",
+                    "duration": ""
+                },
+                {
+                    "type": "fade",
                     "value": "",
                     "author": "",
                     "duration": ""

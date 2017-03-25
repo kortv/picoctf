@@ -276,4 +276,110 @@ body, html, .app, #root {
     width: 940px;
     display: block; }
 
+.b-desktop_chat {
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -50px;
+  width: 500px;
+  height: 420px;
+  border: 2px solid #808080;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden; }
+
+.b-chat_header {
+  background-color: #cccccc;
+  padding: 5px;
+  height: 44px;
+  border-bottom: 2px solid #808080; }
+
+.b-chat_controls {
+  margin-bottom: 2px; }
+  .b-chat_controls div {
+    display: inline-block;
+    background-color: #999999;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 5px; }
+
+.b-chat_address {
+  color: #333333;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  margin-left: 5px; }
+
+.b-chat_body {
+  height: 330px;
+  width: 100%;
+  overflow-y: scroll; }
+  .b-chat_body .b-chat_msg_left {
+    background-color: #e6e6e6;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 30px;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    float: left;
+    margin-top: 10px;
+    position: relative; }
+    .b-chat_body .b-chat_msg_left:after {
+      right: 100%;
+      top: 20%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none; }
+    .b-chat_body .b-chat_msg_left:after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 0 20px 12px;
+      border-color: transparent transparent #e6e6e6 transparent; }
+  .b-chat_body .b-chat_msg_right {
+    float: right;
+    position: relative;
+    background-color: #65b7e5;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 60%;
+    margin-right: 30px;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 10px; }
+    .b-chat_body .b-chat_msg_right:after {
+      left: 100%;
+      top: 20%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none; }
+    .b-chat_body .b-chat_msg_right:after {
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 20px 0 0 12px;
+      border-color: transparent transparent transparent #65b7e5; }
+
+.b-chat_footer {
+  font-family: Arial, sans-serif;
+  background-color: #cccccc;
+  height: 44px;
+  border-top: 2px solid #808080;
+  padding: 5px; }
+  .b-chat_footer div {
+    border: 1px solid #b3b3b3;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: #808080;
+    font-size: 14px; }
+
 /*# sourceMappingURL=index.css.map */

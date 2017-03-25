@@ -10,15 +10,13 @@ const Chat = (props) => {
         <DesktopImg />
         <StoryBoard/>
 
-        <div className="b-desktop_chat">
 
-        </div>
 
         <div className="b-background_yellow"/>
         <div className="b-background_gray"/>
         <div className="b-background_dark-gray"/>
     </div>
   );
-}
+};
 
 export default Chat;

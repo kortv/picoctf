@@ -1,10 +1,22 @@
 import React from 'react';
 
+import DesktopImg from './../Img/DesktopImg';
+import StoryBoard from "../Controls";
+
 const Chat = (props) => {
 
   return (
-    <div>
-      Chat
+    <div className="b-fullscreen_background">
+        <DesktopImg />
+        <StoryBoard/>
+
+        <div className="b-desktop_chat">
+
+        </div>
+
+        <div className="b-background_yellow"/>
+        <div className="b-background_gray"/>
+        <div className="b-background_dark-gray"/>
     </div>
   );
 }

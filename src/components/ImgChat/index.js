@@ -10,7 +10,7 @@ const ImgChat = (props) => {
   } = props;
 
   return (
-    <div className='app'>
+    <div className='b-wrapper'>
     IMG CHAT
       {(images && images.length) ? <Images images={images} /> : null}
       {(texts && texts.length) ? <Texts texts={texts} /> : null}

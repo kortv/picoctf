@@ -2,7 +2,6 @@
  * Created by Alex on 18.03.2017.
  */
 import React, { Component } from 'react';
-import rotate from './img/rotate.svg';
 
 class StoryBoard extends Component {
     render() {

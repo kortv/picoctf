@@ -7,7 +7,7 @@ import {
 import { screens } from '../newData';
 
 const initialState = { screens, currentScreen: {
-  screen: 'ImgChat',
+  screen: 'Chat',
 } };
 
 const coursesReducer = (state = initialState, action) => {

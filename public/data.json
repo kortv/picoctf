@@ -1,83 +1,329 @@
 {
-    "screens": [
+  "screens": [
+    {
+      "id": 1,
+      "screen": "ImgChat",
+      "pause": "",
+      "bg": "",
+      "events": [
         {
-            "screen": "Chat",
-            "pause": "",
-            "bg": "",
-            "events": [
-                {
-                    "type": "text",
-                    "value": "",
-                    "author": "",
-                    "duration": ""
-                },
-                {
-                    "type": "img",
-                    "value": "",
-                    "author": "",
-                    "duration": ""
-                },
-                {
-                    "type": "fade",
-                    "value": "",
-                    "author": "",
-                    "duration": ""
-                }
-            ]
+          "type": "img",
+          "value": "/img/1.jpeg",
+          "author": "",
+          "duration": "3000"
         },
         {
-            "screen": "ImgChat",
-            "pause": "",
-            "bg": "",
-            "events": [
-                {
-                    "type": "",
-                    "value": "",
-                    "author": "",
-                    "duration": ""
-                }
-            ]
+          "type": "img",
+          "value": "/img/2.jpeg",
+          "author": "",
+          "duration": "3000"
         },
         {
-            "screen": "Img",
-            "pause": "",
-            "bg": "",
-            "events": [
-                {
-                    "type": "img",
-                    "value": "",
-                    "duration": ""
-                }
-            ]
-        },
-        {
-            "screen": "HeadScreen",
-            "pause": "",
-            "bg": "",
-            "events": [
-                {
-                    "type": "",
-                    "value": "",
-                    "author": "",
-                    "duration": ""
-                }
-            ]
-        },
-        {
-            "screen": "imgChat",
-            "pause": "",
-            "props": {
-                "bg": ""
-            }
-        },
-        {
-            "screen": "headScreen",
-            "pause": "",
-            "props": {
-                "bg": "",
-                "title": "Master Challange",
-                "part": "2"
-            }
+          "type": "img",
+          "value": "/img/3.jpeg",
+          "author": "",
+          "duration": "3000"
         }
-    ]
+      ]
+    },
+    {
+      "id": 2,
+      "screen": "Chat",
+      "pause": "",
+      "bg": "",
+      "events": []
+    },
+    {
+      "id": 3,
+      "screen": "Chat",
+      "pause": "",
+      "bg": "",
+      "events": [
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "its Almay. Robin Almay Morris.",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "???",
+          "value": "Ding ding ding!",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "???",
+          "value": "Question 2. What is Robin’s dearest ambition?",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "uh... hang on",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "its something to do with that game robin always plays, Mesopets",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "screen": "Chat",
+      "pause": "",
+      "bg": "",
+      "events": [
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "oh yeah, it’s to defeat the Inflatable Sloth Monster in the Mesopets Battle Arena!.",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "???",
+          "value": "Indeed, truly an ambition worthy of Robin.",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "???",
+          "value": "Question 3. What is Robin’s favorite color?",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "(Invasive as usual.)",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "huh. i will.",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "screen": "Chat",
+      "pause": "",
+      "bg": "",
+      "events": [
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "all right ive got it.",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "???",
+          "value": "Congratulations, you have put in enough effort to show that you have more than passing interest in Robin, or are otherwise very, very bored.",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "author": "",
+          "value": "/img/1.jpeg",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "screen": "Chat",
+      "pause": "",
+      "bg": "",
+      "events": [
+        {
+          "type": "img",
+          "author": "",
+          "value": "/img/1.jpeg",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "???",
+          "value": "Ready for your first master challenge?",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "my first boss level! what do I have to do?",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "screen": "HeadScreen",
+      "pause": "",
+      "bg": "",
+      "events": [
+        {
+          "type": "",
+          "value": "Master Challenge",
+          "challenge": "1",
+          "duration": "x"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "screen": "ImgChat",
+      "pause": "",
+      "bg": "",
+      "events": [
+        {
+          "type": "img",
+          "value": "/img/4.jpeg",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "LESLEY",
+          "value": "(Ah, there's my lift.)",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "LESLEY",
+          "value": "(Sweet, it's a self-driving one!)",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "LESLEY",
+          "value": "(I've always wanted to go in one of these.)",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "LESLEY",
+          "value": "...",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "???",
+          "value": "Please stop",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "screen": "ImgChat",
+      "pause": "",
+      "bg": "",
+      "events": [
+        {
+          "type": "img",
+          "value": "/img/1.jpeg",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "(Man, this house is just as ridiculously gargantuan as I remember.)",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "(Daedalus Tech really knows how to compensate independent contractors - probably hopes to lure them into permanent employment.)",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "/img/2.jpeg",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "/img/3.jpeg",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "/img/4.jpeg",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "/img/1.jpeg",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "/img/2.jpeg",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "/img/3.jpeg",
+          "author": "",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "screen": "ImgChat",
+      "pause": "",
+      "bg": "",
+      "events": [
+        {
+          "type": "img",
+          "value": "/img/1.jpeg",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "...",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "HESTIA",
+          "value": "YES! Perfect! That was exactly it!",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "Is this really helping us unlock Robin’s room? How many more are There?",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "/img/2.jpeg",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "fade",
+          "value": "black",
+          "author": "",
+          "duration": ""
+        }
+      ]
+    }
+  ]
 }

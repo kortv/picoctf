@@ -7,6 +7,7 @@ import MainLayout from './components/MainLayout';
 import './index.css';
 import store from './store';
 
+
 ReactDOM.render(
   <Provider store={store}>
     <MainLayout />

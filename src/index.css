@@ -11,6 +11,10 @@ body, html, .app, #root {
   background-color: #222; }
 
 .app {
+  width: 100%;
+  height: 100%; }
+
+.b-wrapper {
   width: 1024px;
   margin: 0 auto;
   position: relative; }
@@ -27,7 +31,6 @@ body, html, .app, #root {
 
 .b-story_board {
   background-color: #222222;
-  color: #FFFFFF;
   width: 100%;
   height: 50%;
   overflow: auto;
@@ -39,7 +42,9 @@ body, html, .app, #root {
   position: absolute;
   right: 0;
   bottom: 0;
-  font-family: Arial, sans-serif; }
+  font-family: Arial, sans-serif;
+  background-color: #222222;
+  padding: 5px; }
   .b-controls_control {
     display: inline-block;
     padding: 5px 15px;
@@ -238,5 +243,38 @@ body, html, .app, #root {
     border-style: solid;
     border-width: 24px 14px 0 0;
     border-color: #424242 transparent transparent transparent; }
+
+.b-fullscreen_background {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  .b-fullscreen_background .b-background_yellow {
+    height: 70%;
+    width: 100%;
+    background-color: #f7c537; }
+  .b-fullscreen_background .b-background_gray {
+    height: 24%;
+    width: 100%;
+    background-color: #666666; }
+  .b-fullscreen_background .b-background_dark-gray {
+    height: 6%;
+    width: 100%;
+    background-color: #4d4d4d; }
+
+.b-login_img,
+.b-desktop_img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+  .b-login_img img,
+  .b-desktop_img img {
+    width: 940px;
+    display: block; }
 
 /*# sourceMappingURL=index.css.map */

@@ -1,28 +1,28 @@
 import React, { Component } from 'react';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import * as actionCreators from '../../actions';
-
-import Images from '../Images';
-import Texts from '../Texts';
+import * as actionCreators from './actions';
+import * as ScreenComponents from './components';
 
 class MainLayout extends Component {
 
   componentDidMount() {
     // return this.loadCourse();
     this.props.actions.fetchCourse();
-  }
+  }  
 
   render() {
     const {
-      images,
-      texts,
+      currentScreen: {
+        screen,
+      }
     } = this.props;
 
+    const Screen = ScreenComponents[screen] || ScreenComponents['ImgChat'];
+
     return (
-      <div className='app'>
-        {(images && images.length) ? <Images images={images} /> : null}
-        {(texts && texts.length) ? <Texts texts={texts} /> : null}
+      <div className='app' style={{ color: 'white' }}>
+        <Screen />
       </div>
     );
   }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { COURSE_PATH } from '../../constants';
+import { COURSE_PATH } from '../../../constants';
 
 class Images extends Component {
 

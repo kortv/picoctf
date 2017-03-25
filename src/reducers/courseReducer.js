@@ -4,7 +4,11 @@ import {
   COURSE_REJECTED,
 } from '../constants';
 
-const initialState = {};
+import { screens } from '../newData';
+
+const initialState = { screens, currentScreen: {
+  screen: 'ImgChat',
+} };
 
 const coursesReducer = (state = initialState, action) => {
   switch (action.type) {

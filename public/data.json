@@ -1,94 +1,71 @@
 {
-    "images": [
+    "screens": [
         {
-            "time": "0:0.0",
-            "src": "\/img\/1.jpeg"
+            "screen": "Chat",
+            "pause": "",
+            "bg": "",
+            "events": [
+                {
+                    "type": "",
+                    "value": "",
+                    "author": "",
+                    "duration": ""
+                }
+            ]
         },
         {
-            "time": "0:29.7",
-            "src": "\/img\/2.jpeg"
+            "screen": "ImgChat",
+            "pause": "",
+            "bg": "",
+            "events": [
+                {
+                    "type": "",
+                    "value": "",
+                    "author": "",
+                    "duration": ""
+                }
+            ]
         },
         {
-            "time": "0:51.7",
-            "src": "\/img\/3.jpeg"
+            "screen": "Img",
+            "pause": "",
+            "bg": "",
+            "events": [
+                {
+                    "type": "img",
+                    "value": "",
+                    "duration": ""
+                }
+            ]
         },
         {
-            "time": "1:30.3",
-            "src": "\/img\/4.jpeg"
-        }
-    ],
-    "texts": [
-        {
-            "author": "Bennie",
-            "color": "#04e50e",
-            "time": "0:18.9",
-            "text": "Id quibusdam distinctio cum nobis."
+            "screen": "HeadScreen",
+            "pause": "",
+            "bg": "",
+            "events": [
+                {
+                    "type": "",
+                    "value": "",
+                    "author": "",
+                    "duration": ""
+                }
+            ]
         },
         {
-            "author": "Madalyn",
-            "color": "#fe74f4",
-            "time": "0:16.7",
-            "text": "Fugiat nulla sit impedit molestiae quia."
+            "screen": "imgChat",
+            "pause": "",
+            "props": {
+                "bg": ""
+            }
         },
         {
-            "author": "Madalyn",
-            "color": "#fe74f4",
-            "time": "0:14.7",
-            "text": "Neque sint quas dicta rerum."
-        },
-        {
-            "author": "Ivah",
-            "color": "#269747",
-            "time": "0:8.1",
-            "text": "Vel aut tempore odit natus amet."
-        },
-        {
-            "author": "Elijah",
-            "color": "#88047d",
-            "time": "1:18.2",
-            "text": "Perspiciatis et omnis qui modi."
-        },
-        {
-            "author": "Anahi",
-            "color": "#7219ce",
-            "time": "0:4.4",
-            "text": "Eos neque qui molestias occaecati necessitatibus est."
-        },
-        {
-            "author": "Viola",
-            "color": "#e8ef11",
-            "time": "0:37",
-            "text": "Enim voluptatem debitis iure modi."
-        },
-        {
-            "author": "Andy",
-            "color": "#fe79b5",
-            "time": "1:13.6",
-            "text": "Neque sint quas dicta rerum."
-        },
-        {
-            "author": "Elza",
-            "color": "#55cb18",
-            "time": "1:28.4",
-            "text": "Facere ut non quam eligendi temporibus."
-        },
-        {
-            "author": "Eveline",
-            "color": "#0815b2",
-            "time": "0:59.6",
-            "text": "Et aut repellendus repellat praesentium."
-        },
-        {
-            "author": "Constance",
-            "color": "#10f52b",
-            "time": "0:17.9",
-            "text": "Est harum perferendis incidunt et."
-        },
-        {
-            "author": "Adele",
-            "color": "#5079f4",
-            "time": "0:2.9",
-            "text": "Alias est ex in perferendis repellendus rerum."
+            "screen": "headScreen",
+            "pause": "",
+            "props": {
+                "bg": "",
+                "title": "Master Challange",
+                "part": "2"
+            }
         }
     ]
 }

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import 'babel-polyfill';
 
-import MainLayout from './components/MainLayout';
+import MainLayout from './MainLayout';
 import './index.css';
 import store from './store';
 

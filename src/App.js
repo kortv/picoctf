@@ -51,11 +51,11 @@ class App extends PureComponent {
   render() {
     const {
       currentScreen: {
-        events,
         index,
         screen,
       },
       actions,
+      events,
     } = this.props;
 
     const Screen = ScreenComponents[screen] || ScreenComponents['ImgChat'];

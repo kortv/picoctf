@@ -4,7 +4,7 @@ const ChatLeft = ({
   isSameAuthor,
   isLeftSide,
   author,
-  text,
+  value,
 }) => (
   <div className="b-chat_left">
     <div className="b-nameplate">
@@ -12,7 +12,7 @@ const ChatLeft = ({
     </div>
     <div className="b-chat_bubble">
       <div className="b-talk"></div>
-      <span dangerouslySetInnerHTML={{ __html: text }} />
+      <span dangerouslySetInnerHTML={{ __html: value }} />
     </div>
   </div>
 );

@@ -1,31 +1,6 @@
 {
   "screens": [
-    {
-      "id": 1,
-      "screen": "Img",
-      "pause": "",
-      "bg": "",
-      "events": [
-        {
-          "type": "img",
-          "value": "/img/1.jpeg",
-          "author": "",
-          "duration": "3000"
-        },
-        {
-          "type": "img",
-          "value": "/img/2.jpeg",
-          "author": "",
-          "duration": "3000"
-        },
-        {
-          "type": "img",
-          "value": "/img/3.jpeg",
-          "author": "",
-          "duration": "3000"
-        }
-      ]
-    },
+
     {
       "id": 12,
       "screen": "ImgChat",
@@ -122,7 +97,7 @@
           "type": "img",
           "value": "/img/2.jpeg",
           "author": "",
-          "duration": ""
+          "duration": "99999999999999"
         },
         {
           "type": "fade",
@@ -132,6 +107,32 @@
         }
       ]
     },
+        {
+          "id": 1,
+          "screen": "Img",
+          "pause": "",
+          "bg": "",
+          "events": [
+            {
+              "type": "img",
+              "value": "/img/1.jpeg",
+              "author": "",
+              "duration": "3000"
+            },
+            {
+              "type": "img",
+              "value": "/img/2.jpeg",
+              "author": "",
+              "duration": "3000"
+            },
+            {
+              "type": "img",
+              "value": "/img/3.jpeg",
+              "author": "",
+              "duration": "3000"
+            }
+          ]
+        },
     {
       "id": 3,
       "screen": "Chat",

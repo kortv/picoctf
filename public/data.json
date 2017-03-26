@@ -6,19 +6,19 @@
       "events": [
         {
           "type": "img",
-          "value": "/img/login.png",
+          "value": "login.png",
           "author": "",
           "duration": "3000"
         },
         {
           "type": "img",
-          "value": "/img/desktop.png",
+          "value": "desktop.png",
           "author": "",
           "duration": "2000"
         },
         {
           "type": "img",
-          "value": "/img/desktop1.png",
+          "value": "desktop1.png",
           "author": "",
           "duration": "1000"
         }
@@ -115,7 +115,7 @@
         {
           "type": "img",
           "author": "",
-          "value": "/img/desktop2.png",
+          "value": "desktop2.png",
           "duration": ""
         }
       ]
@@ -127,7 +127,7 @@
         {
           "type": "img",
           "author": "",
-          "value": "/img/desktop2.png",
+          "value": "desktop2.png",
           "duration": "0"
         },
         {
@@ -156,7 +156,7 @@
       "events": [
         {
           "type": "img",
-          "value": "/img/4.jpeg",
+          "value": "4.jpeg",
           "author": "",
           "duration": "0"
         },
@@ -198,7 +198,7 @@
       "events": [
         {
           "type": "img",
-          "value": "/img/1.jpeg",
+          "value": "1.jpeg",
           "author": "",
           "duration": "0"
         },
@@ -216,37 +216,37 @@
         },
         {
           "type": "img",
-          "value": "/img/2.jpeg",
+          "value": "2.jpeg",
           "author": "",
           "duration": ""
         },
         {
           "type": "img",
-          "value": "/img/3.jpeg",
+          "value": "3.jpeg",
           "author": "",
           "duration": ""
         },
         {
           "type": "img",
-          "value": "/img/4.jpeg",
+          "value": "4.jpeg",
           "author": "",
           "duration": ""
         },
         {
           "type": "img",
-          "value": "/img/1.jpeg",
+          "value": "1.jpeg",
           "author": "",
           "duration": ""
         },
         {
           "type": "img",
-          "value": "/img/2.jpeg",
+          "value": "2.jpeg",
           "author": "",
           "duration": ""
         },
         {
           "type": "img",
-          "value": "/img/3.jpeg",
+          "value": "3.jpeg",
           "author": "",
           "duration": ""
         }
@@ -258,7 +258,7 @@
       "events": [
         {
           "type": "img",
-          "value": "/img/1.jpeg",
+          "value": "1.jpeg",
           "author": "",
           "duration": "0"
         },
@@ -282,49 +282,7 @@
         },
         {
           "type": "img",
-          "value": "/img/2.jpeg",
-          "author": "",
-          "duration": ""
-        },
-        {
-          "type": "fade",
-          "value": "black",
-          "author": "",
-          "duration": ""
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "screen": "ImgChat",
-      "events": [
-        {
-          "type": "img",
-          "value": "/img/1.jpeg",
-          "author": "",
-          "duration": "0"
-        },
-        {
-          "type": "text",
-          "author": "KENDALL",
-          "value": "...",
-          "duration": ""
-        },
-        {
-          "type": "text",
-          "author": "HESTIA",
-          "value": "YES! Perfect! That was exactly it!",
-          "duration": ""
-        },
-        {
-          "type": "text",
-          "author": "KENDALL",
-          "value": "Is this really helping us unlock Robin’s room? How many more are There?",
-          "duration": ""
-        },
-        {
-          "type": "img",
-          "value": "/img/2.jpeg",
+          "value": "2.jpeg",
           "author": "",
           "duration": ""
         },

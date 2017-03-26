@@ -5,7 +5,7 @@ const HeadScreen = ({ index, setScreen, title, challenge }) => {
 
   return (
     <div className="b-desktop_img">
-        <img src="img/challenge.png" alt=""/>
+        <img src="/img/challenge.png" alt=""/>
         {/*<img src="img/scheme.png" alt=""/>*/}
 
         <div className="b-centered_text">

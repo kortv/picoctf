@@ -1,5 +1,6 @@
 import React from 'react';
 import get from 'lodash.get';
+import { COURSE_PATH } from '../../constants';
 
 import StoryBoard from "../Controls";
 
@@ -49,7 +50,7 @@ const Chat = ({ events, index, setScreen }) => {
           </div>
           </div>
         </div>
-        <img src={lastSrc || "img/desktop1.png"} alt="" />
+        <img src={`${COURSE_PATH}${lastSrc || "desktop1.png"}`} alt="" />
       </div>
 
 

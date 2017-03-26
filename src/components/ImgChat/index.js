@@ -9,23 +9,22 @@ import Images from './Images';
 const ImgChat = ({ events, index, setScree }) => {
   let isLeftSide = false;
   let lastSrc = '';
-  const storyList = events.map((obj, index) => {
+  const storyList = events.map((obj, i) => {
     if (obj.type === 'img') {
       lastSrc = obj.value;
       return null;
     } else {
-      const isSameAuthor = obj.author === get(events, [index - 1, 'author']);
+      const isSameAuthor = obj.author === get(events, [i - 1, 'author']);
       isLeftSide = isSameAuthor ? isLeftSide : !isLeftSide
 
       return isLeftSide ?
-        <ChatLeft key={index} {...obj} isSameAuthor={isSameAuthor} /> :
-        <ChatRight key={index} {...obj} isSameAuthor={isSameAuthor} />
+        <ChatLeft key={i} {...obj} isSameAuthor={isSameAuthor} /> :
+        <ChatRight key={i} {...obj} isSameAuthor={isSameAuthor} />
     }
   })
 
   return (
     <div className='b-wrapper'>
-    IMG CHAT
       <Images src={lastSrc} />
     {/*(texts && texts.length) ? <Texts texts={texts} /> : null*/}
     <div

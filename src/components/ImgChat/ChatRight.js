@@ -4,14 +4,17 @@ const ChatRight = ({
   isSameAuthor,
   isLeftSide,
   author,
-  text,
+  value,
 }) => (
   <div className="b-chat_right">
     <div className="b-chat_bubble">
       <div className="b-talk"></div>
-      <span dangerouslySetInnerHTML={{ __html: text }} />
+      <span dangerouslySetInnerHTML={{ __html: value }} />
     </div>
-    <div className="b-nameplate">
+    <div
+      className="b-nameplate"
+      style={isSameAuthor ? { visibility: 'hidden' } : {}}
+    >
       {author}
     </div>
   </div>

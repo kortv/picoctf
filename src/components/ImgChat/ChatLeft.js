@@ -7,7 +7,10 @@ const ChatLeft = ({
   value,
 }) => (
   <div className="b-chat_left">
-    <div className="b-nameplate">
+    <div
+      className="b-nameplate"
+      style={isSameAuthor ? { visibility: 'hidden' } : {}}
+    >
       {author}
     </div>
     <div className="b-chat_bubble">

@@ -1,6 +1,31 @@
 {
   "screens": [
-
+    {
+      "id": 1,
+      "screen": "Img",
+      "pause": "",
+      "bg": "",
+      "events": [
+        {
+          "type": "img",
+          "value": "/img/1.jpeg",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "/img/2.jpeg",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "/img/3.jpeg",
+          "author": "",
+          "duration": ""
+        }
+      ]
+    },
     {
       "id": 12,
       "screen": "ImgChat",
@@ -17,31 +42,31 @@
           "type": "text",
           "author": "KENDALL",
           "value": "(Man, this house is just as ridiculously gargantuan as I remember.)",
-          "duration": "5000"
+          "duration": ""
         },
         {
           "type": "text",
           "author": "KENDALL",
           "value": "(Daedalus Tech really knows how to compensate independent contractors - probably hopes to lure them into permanent employment.)",
-          "duration": "5000"
+          "duration": ""
         },
         {
           "type": "img",
           "value": "/img/2.jpeg",
           "author": "",
-          "duration": "50000"
+          "duration": ""
         },
         {
           "type": "img",
           "value": "/img/3.jpeg",
           "author": "",
-          "duration": "5000"
+          "duration": ""
         },
         {
           "type": "img",
           "value": "/img/4.jpeg",
           "author": "",
-          "duration": "5000"
+          "duration": ""
         },
         {
           "type": "img",
@@ -85,7 +110,7 @@
           "type": "text",
           "author": "HESTIA",
           "value": "YES! Perfect! That was exactly it!",
-          "duration": ""
+          "duration": "99999"
         },
         {
           "type": "text",
@@ -97,7 +122,7 @@
           "type": "img",
           "value": "/img/2.jpeg",
           "author": "",
-          "duration": "99999999999999"
+          "duration": ""
         },
         {
           "type": "fade",
@@ -107,32 +132,6 @@
         }
       ]
     },
-        {
-          "id": 1,
-          "screen": "Img",
-          "pause": "",
-          "bg": "",
-          "events": [
-            {
-              "type": "img",
-              "value": "/img/1.jpeg",
-              "author": "",
-              "duration": "3000"
-            },
-            {
-              "type": "img",
-              "value": "/img/2.jpeg",
-              "author": "",
-              "duration": "3000"
-            },
-            {
-              "type": "img",
-              "value": "/img/3.jpeg",
-              "author": "",
-              "duration": "3000"
-            }
-          ]
-        },
     {
       "id": 3,
       "screen": "Chat",

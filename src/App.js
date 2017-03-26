@@ -20,12 +20,12 @@ class App extends PureComponent {
   }
 
   execute = (generator, yieldValue) => {
-    const { currentScreen, actions } = this.props;
+    const { currentScreen, actions, screens } = this.props;
     const next = generator.next(yieldValue);
     setTimeout(() => {
       if (!next.done) {
         const { value } = next;
-        const time = value.type === 'fade' ? 3000 : 500 + Math.random() * 1000;
+        const time = value.type === 'fade' ? 3000 : Math.random() * 3000;
         console.log(next.value)
         actions.setEvent(next.value);
         setTimeout(() => {
@@ -33,7 +33,9 @@ class App extends PureComponent {
         }, value.duration || time)
       } else {
         console.log(next.value);
+        console.log(currentScreen.index);
         setTimeout(() => {
+          if (currentScreen.index + 1 < screens.length)
           actions.setScreen(currentScreen.index + 1);
         }, 3000);
       }
@@ -49,24 +51,24 @@ class App extends PureComponent {
   render() {
     const {
       currentScreen: {
-        screen,
-      }
+        events,
+        index,
+      },
+      actions,
     } = this.props;
 
     const Screen = ScreenComponents[screen] || ScreenComponents['ImgChat'];
 
     return (
       <div className='app' style={{ color: 'white' }}>
-        <Screen />
+        <Screen events={events} index={index} setScreen={actions.setScreen} />
       </div>
     );
   }
 }
 
 const mapStateToProps = function (store) {
-  return {
-    ...store.course,
-  };
+  return store.course;
 };
 
 const mapDispatchToProps = (dispatch) => ({

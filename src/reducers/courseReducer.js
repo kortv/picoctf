@@ -44,6 +44,7 @@ const coursesReducer = (state = initialState, action) => {
     case SET_SCREEN:
       return {
         ...state,
+        events: [],
         currentScreen: {
           ...get(state, ['screens', action.payload], {}),
           index: action.payload,
@@ -53,7 +54,7 @@ const coursesReducer = (state = initialState, action) => {
     case SET_EVENT:
       return {
         ...state,
-        event: action.payload,
+        events: [ ...state.events, action.payload],
       };
 
     default:

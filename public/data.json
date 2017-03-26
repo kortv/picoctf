@@ -2,7 +2,7 @@
   "screens": [
     {
       "id": 1,
-      "screen": "ImgChat",
+      "screen": "Img",
       "pause": "",
       "bg": "",
       "events": [
@@ -25,13 +25,6 @@
           "duration": "3000"
         }
       ]
-    },
-    {
-      "id": 2,
-      "screen": "Chat",
-      "pause": "",
-      "bg": "",
-      "events": []
     },
     {
       "id": 3,
@@ -297,7 +290,7 @@
           "type": "text",
           "author": "KENDALL",
           "value": "...",
-          "duration": "0"
+          "duration": ""
         },
         {
           "type": "text",

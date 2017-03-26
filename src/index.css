@@ -8,7 +8,8 @@ body, html, .app, #root {
   overflow: hidden; }
 
 #root {
-  background-color: #222; }
+  background-color: #222;
+  height: 100%; }
 
 .app {
   width: 100%; }
@@ -16,7 +17,8 @@ body, html, .app, #root {
 .b-wrapper {
   width: 1024px;
   position: relative;
-  margin: 0 auto; }
+  margin: 0 auto;
+  height: 100%; }
 
 .b-story_img {
   width: 100%;
@@ -42,7 +44,8 @@ body, html, .app, #root {
   bottom: 0;
   font-family: Arial, sans-serif;
   background-color: #222222;
-  padding: 7px; }
+  padding: 7px;
+  height: 6%; }
   .b-controls_control {
     display: inline-block;
     padding: 5px 15px;

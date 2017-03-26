@@ -10,7 +10,7 @@ import {
 const initialState = {
   screens: [],
   currentScreen: {
-    screen: 'Chat',
+    screen: 'Img',
   }
 };
 

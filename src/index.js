@@ -5,6 +5,7 @@ import 'babel-polyfill';
 
 import App from './App';
 import './index.css';
+import './fade.css';
 import store from './store';
 
 ReactDOM.render(

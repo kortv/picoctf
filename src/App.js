@@ -6,7 +6,7 @@ import isEqual from 'lodash.isequal';
 import * as actionCreators from './actions';
 import * as ScreenComponents from './components';
 
-function* screensGenerator(screens) {
+function *screensGenerator(screens) {
   for (var i = 0; i < screens.length; i++) {
     yield screens[i];
   }
@@ -25,25 +25,28 @@ class App extends PureComponent {
     setTimeout(() => {
       if (!next.done) {
         const { value } = next;
-        const time = value.type === 'fade' ? 3000 : Math.random() * 3000;
-        console.log(next.value)
-        actions.setEvent(next.value);
+        const time = value.type === 'fade' ? 3000 : 2000 + Math.random() * 1000;
+        console.log(value)
+        actions.setEvent(value);
         setTimeout(() => {
           this.execute(generator, next);
         }, value.duration || time)
       } else {
         console.log(next.value);
         console.log(currentScreen.index);
-        setTimeout(() => {
-          if (currentScreen.index + 1 < screens.length)
-          actions.setScreen(currentScreen.index + 1);
-        }, 3000);
+        // setTimeout(() => {
+          if (currentScreen.index + 1 < screens.length){
+            actions.setScreen(currentScreen.index + 1);
+          }
+        // }, 3000);
       }
     }, 200)
   }
 
-  componentWillReceiveProps({ currentScreen }) {
-    if (currentScreen.events && !isEqual(currentScreen, this.props.currentScreen)) {
+  componentWillReceiveProps({ currentScreen, events }) {
+    if (currentScreen.screen === 'HeadScreen') {
+      console.log('HeadScreen');
+    } else if (currentScreen.events && (!events.length || !isEqual(currentScreen, this.props.currentScreen))) {
       this.execute(screensGenerator(currentScreen.events))
     }
   }
@@ -53,19 +56,25 @@ class App extends PureComponent {
       currentScreen: {
         index,
         screen,
+        challenge,
+        title,
       },
       actions,
       events,
     } = this.props;
 
-    const Screen = ScreenComponents[screen] || ScreenComponents['ImgChat'];
+    const Screen = ScreenComponents[screen] || ScreenComponents['Img'];
 
     return (
       <div className='app' style={{ color: 'white' }}>
-        <Screen events={events} index={index} setScreen={actions.setScreen} />
+        <Screen {...{events, challenge, title, index}} setScreen={actions.setScreen} />
       </div>
     );
   }
+}
+
+App.defaultProps = {
+  events: [],
 }
 
 const mapStateToProps = function (store) {

@@ -1,7 +1,7 @@
 import React from 'react';
-import Controls from './../Controls'
+import Continue from './Continue'
 
-const HeadScreen = (props) => {
+const HeadScreen = ({ index, setScreen, title, challenge }) => {
 
   return (
     <div className="b-desktop_img">
@@ -9,13 +9,16 @@ const HeadScreen = (props) => {
         {/*<img src="img/scheme.png" alt=""/>*/}
 
         <div className="b-centered_text">
-            <div>master challenge</div>
-            <div>1</div>
+            <div>{title}</div>
+            {challenge && <div>{challenge}</div>}
         </div>
-
-        <Controls />
+        <Continue {...{ index, setScreen }} />
     </div>
   );
+}
+
+HeadScreen.defaultProps = {
+  challenge: '',
 }
 
 export default HeadScreen;

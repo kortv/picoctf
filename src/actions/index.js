@@ -41,6 +41,11 @@ export function fetchCourse() {
 }
 
 export function setScreen(payload) {
+  const timerNum = setTimeout(() => {}, 0);
+  console.log(timerNum);
+  for (var i = timerNum; i > 0; i--) {
+    clearTimeout(i);
+  }
   return {
     type: SET_SCREEN,
     payload,

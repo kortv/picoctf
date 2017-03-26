@@ -53,6 +53,7 @@ class App extends PureComponent {
       currentScreen: {
         events,
         index,
+        screen,
       },
       actions,
     } = this.props;

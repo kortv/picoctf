@@ -27,6 +27,112 @@
       ]
     },
     {
+      "id": 12,
+      "screen": "ImgChat",
+      "pause": "",
+      "bg": "",
+      "events": [
+        {
+          "type": "img",
+          "value": "/img/1.jpeg",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "(Man, this house is just as ridiculously gargantuan as I remember.)",
+          "duration": "5000"
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "(Daedalus Tech really knows how to compensate independent contractors - probably hopes to lure them into permanent employment.)",
+          "duration": "5000"
+        },
+        {
+          "type": "img",
+          "value": "/img/2.jpeg",
+          "author": "",
+          "duration": "50000"
+        },
+        {
+          "type": "img",
+          "value": "/img/3.jpeg",
+          "author": "",
+          "duration": "5000"
+        },
+        {
+          "type": "img",
+          "value": "/img/4.jpeg",
+          "author": "",
+          "duration": "5000"
+        },
+        {
+          "type": "img",
+          "value": "/img/1.jpeg",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "/img/2.jpeg",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "/img/3.jpeg",
+          "author": "",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "screen": "ImgChat",
+      "pause": "",
+      "bg": "",
+      "events": [
+        {
+          "type": "img",
+          "value": "/img/1.jpeg",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "...",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "HESTIA",
+          "value": "YES! Perfect! That was exactly it!",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "Is this really helping us unlock Robin’s room? How many more are There?",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "/img/2.jpeg",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "fade",
+          "value": "black",
+          "author": "",
+          "duration": ""
+        }
+      ]
+    },
+    {
       "id": 3,
       "screen": "Chat",
       "pause": "",
@@ -208,112 +314,6 @@
           "type": "text",
           "author": "???",
           "value": "Please stop",
-          "duration": ""
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "screen": "ImgChat",
-      "pause": "",
-      "bg": "",
-      "events": [
-        {
-          "type": "img",
-          "value": "/img/1.jpeg",
-          "author": "",
-          "duration": "0"
-        },
-        {
-          "type": "text",
-          "author": "KENDALL",
-          "value": "(Man, this house is just as ridiculously gargantuan as I remember.)",
-          "duration": ""
-        },
-        {
-          "type": "text",
-          "author": "KENDALL",
-          "value": "(Daedalus Tech really knows how to compensate independent contractors - probably hopes to lure them into permanent employment.)",
-          "duration": ""
-        },
-        {
-          "type": "img",
-          "value": "/img/2.jpeg",
-          "author": "",
-          "duration": ""
-        },
-        {
-          "type": "img",
-          "value": "/img/3.jpeg",
-          "author": "",
-          "duration": ""
-        },
-        {
-          "type": "img",
-          "value": "/img/4.jpeg",
-          "author": "",
-          "duration": ""
-        },
-        {
-          "type": "img",
-          "value": "/img/1.jpeg",
-          "author": "",
-          "duration": ""
-        },
-        {
-          "type": "img",
-          "value": "/img/2.jpeg",
-          "author": "",
-          "duration": ""
-        },
-        {
-          "type": "img",
-          "value": "/img/3.jpeg",
-          "author": "",
-          "duration": ""
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "screen": "ImgChat",
-      "pause": "",
-      "bg": "",
-      "events": [
-        {
-          "type": "img",
-          "value": "/img/1.jpeg",
-          "author": "",
-          "duration": "0"
-        },
-        {
-          "type": "text",
-          "author": "KENDALL",
-          "value": "...",
-          "duration": ""
-        },
-        {
-          "type": "text",
-          "author": "HESTIA",
-          "value": "YES! Perfect! That was exactly it!",
-          "duration": ""
-        },
-        {
-          "type": "text",
-          "author": "KENDALL",
-          "value": "Is this really helping us unlock Robin’s room? How many more are There?",
-          "duration": ""
-        },
-        {
-          "type": "img",
-          "value": "/img/2.jpeg",
-          "author": "",
-          "duration": ""
-        },
-        {
-          "type": "fade",
-          "value": "black",
-          "author": "",
           "duration": ""
         }
       ]

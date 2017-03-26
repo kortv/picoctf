@@ -1,16 +1,16 @@
 import React from 'react';
 
-import desktopimg from './img/desktop.png';
-import desktopimg1 from './img/desktop1.png';
+// import desktopimg from './img/desktop.png';
+// import desktopimg1 from './img/desktop1.png';
 
 const Img = (props) => {
 
     return (
         <div className="b-desktop_img">
-            <img src={desktopimg1} alt=""/>
+            <img src="img/desktop2.png" alt=""/>
 
             {/*Chat window*/}
-            <div className="b-desktop_chat">
+            {/*<div className="b-desktop_chat">
                 <div className="b-chat_header">
                     <div className="b-chat_controls">
                         <div/>
@@ -46,7 +46,7 @@ const Img = (props) => {
                         Message...
                     </div>
                 </div>
-            </div>
+            </div>*/}
         </div>
     );
 }

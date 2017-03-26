@@ -2,7 +2,7 @@ import {
   COURSE_PENDING,
   COURSE_FULFILLED,
   COURSE_REJECTED,
-  COURSE_PATH,
+  FETCH_PATH,
   SET_SCREEN,
   SET_EVENT,
 } from '../constants';
@@ -31,7 +31,7 @@ export function fetchCourse() {
   return (dispatch) => {
     dispatch(coursePending());
     return (
-      fetch(COURSE_PATH)
+      fetch(FETCH_PATH)
         .then((response) => response.json())
         .then((data) => dispatch(courseFulfilled(data)))
         .then(() => dispatch(setScreen(0)))

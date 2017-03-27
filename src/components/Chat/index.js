@@ -16,10 +16,10 @@ const Chat = ({ events, index, setScreen }) => {
       isLeftSide = isSameAuthor ? isLeftSide : !isLeftSide
 
       return isLeftSide ?
-        <div className="b-chat_msg_left">
+        <div key={i} className="b-chat_msg_left">
           {obj.value}
         </div> :
-        <div className="b-chat_msg_right">
+        <div key={i} className="b-chat_msg_right">
           {obj.value}
         </div>
     }

@@ -51,6 +51,14 @@ class App extends PureComponent {
     }
   }
 
+  _setScreen = (screens = []) =>  (index) => {
+    this.props.actions.setScreen(
+      index >= screens.length ?
+      0 :
+      index
+    )
+  }
+
   render() {
     const {
       currentScreen: {
@@ -59,15 +67,18 @@ class App extends PureComponent {
         challenge,
         title,
       },
-      actions,
       events,
+      screens,
     } = this.props;
 
     const Screen = ScreenComponents[screen] || ScreenComponents['Img'];
 
     return (
       <div className='app' style={{ color: 'white' }}>
-        <Screen {...{events, challenge, title, index}} setScreen={actions.setScreen} />
+        <Screen
+          {...{events, challenge, title, index}}
+          setScreen={this._setScreen(screens)}
+        />
       </div>
     );
   }

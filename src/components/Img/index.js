@@ -5,18 +5,22 @@ import LoginImg from './LoginImg'
 import DesktopImg from './DesktopImg'
 import StoryBoard from "../Controls";
 
-const Img = ({ events, index, setScreen }) => {
+const noBackLines = ['scheme.png'];
+const isHidden = (src) => noBackLines.some((value) => value === src);
 
+const Img = ({ events, index, setScreen }) => {
+  const src = get(events, [events.length - 1, 'value'])
+  const isShowen = !isHidden(src);
   return events.length ? (
     <div className="b-fullscreen_background">
 
         {/*<LoginImg />*/}
-        <DesktopImg src={get(events, [events.length - 1, 'value'])} />
+        <DesktopImg src={src} />
         <StoryBoard {...{ index, setScreen }} />
 
-        <div className="b-background_yellow"/>
-        <div className="b-background_gray"/>
-        <div className="b-background_dark-gray"/>
+        {isShowen && <div className="b-background_yellow" />}
+        {isShowen && <div className="b-background_gray" />}
+        {isShowen && <div className="b-background_dark-gray" />}
     </div>
   ) : null;
 }

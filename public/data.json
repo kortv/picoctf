@@ -222,7 +222,7 @@
       "events": [
         {
           "type": "img",
-          "value": "story.png",
+          "value": "24.png",
           "author": "",
           "duration": "0"
         },
@@ -230,7 +230,7 @@
           "type": "text",
           "author": "LESLEY",
           "value": "(Ah, there's my lift.)",
-          "duration": ""
+          "duration": "99999999"
         },
         {
           "type": "text",
@@ -258,7 +258,7 @@
       "events": [
         {
           "type": "img",
-          "value": "story.png",
+          "value": "24.png",
           "author": "",
           "duration": "0"
         },
@@ -294,7 +294,7 @@
       "events": [
         {
           "type": "img",
-          "value": "story.png",
+          "value": "24.png",
           "author": "",
           "duration": "0"
         },

@@ -151,12 +151,78 @@
       "challenge": "1"
     },
     {
+      "id": 8,
+      "screen": "Chat",
+      "events": [
+        {
+          "type": "img",
+          "author": "",
+          "value": "desktop2.png",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "done!",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "???",
+          "value": "Really? Let me see.",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "???",
+          "value": "That was actually right, amazing.",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "screen": "Img",
+      "events": [
+        {
+          "type": "img",
+          "value": "scheme.png",
+          "author": "",
+          "duration": "3000"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "screen": "Chat",
+      "events": [
+        {
+          "type": "img",
+          "author": "",
+          "value": "desktop2.png",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "some of these look like robin’s... drawings? designs?",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "???",
+          "value": "Yes, there should be a set of blueprints of Robin’s house here somewhere.",
+          "duration": ""
+        }
+      ]
+    },
+    {
       "id": 9,
       "screen": "ImgChat",
       "events": [
         {
           "type": "img",
-          "value": "4.jpeg",
+          "value": "story.png",
           "author": "",
           "duration": "0"
         },
@@ -180,14 +246,74 @@
         },
         {
           "type": "text",
-          "author": "LESLEY",
-          "value": "...",
+          "author": "???",
+          "value": "Please stop",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "screen": "ImgChat",
+      "events": [
+        {
+          "type": "img",
+          "value": "story.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "Master challenge 2, here I come.",
           "duration": ""
         },
         {
           "type": "text",
           "author": "???",
-          "value": "Please stop",
+          "value": "<span>Turns out, some of the files back from Master Challenge 1 were corrupted.</span><span>...</span><span>More blueprints, maybe. Can’t be sure until they’ re fixed, but I’ m pretty sure what I’ m looking for is in there.< /span>",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "Alright, I’ll have a look.",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "screen": "HeadScreen",
+      "title": "Master Challenge",
+      "challenge": "2"
+    },
+    {
+      "id": 11,
+      "screen": "ImgChat",
+      "events": [
+        {
+          "type": "img",
+          "value": "story.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "Think I fixed them, sending over the files now.",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "???",
+          "value": "Wonderful!",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "Alright, I’ll have a look.",
           "duration": ""
         }
       ]

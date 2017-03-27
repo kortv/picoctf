@@ -324,7 +324,7 @@
       "events": [
         {
           "type": "img",
-          "value": "15.png",
+          "value": "5.png",
           "author": "",
           "duration": "0"
         },
@@ -348,31 +348,25 @@
         },
         {
           "type": "img",
-          "value": "3.jpeg",
+          "value": "1.png",
           "author": "",
           "duration": ""
         },
         {
           "type": "img",
-          "value": "4.jpeg",
+          "value": "3.png",
           "author": "",
           "duration": ""
         },
         {
           "type": "img",
-          "value": "1.jpeg",
+          "value": "4.png",
           "author": "",
           "duration": ""
         },
         {
           "type": "img",
-          "value": "2.jpeg",
-          "author": "",
-          "duration": ""
-        },
-        {
-          "type": "img",
-          "value": "3.jpeg",
+          "value": "17.png",
           "author": "",
           "duration": ""
         }
@@ -384,7 +378,43 @@
       "events": [
         {
           "type": "img",
-          "value": "1.jpeg",
+          "value": "17.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "...",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "HESTIA",
+          "value": "You look like you’re in good shape to take a crack at accessing the private floors.",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "Oh... am I? I don’t know, maybe I should practise a bit more...",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "screen": "HeadScreen",
+      "title": "Master Challenge",
+      "challenge": "3"
+    },
+    {
+      "id": 14,
+      "screen": "ImgChat",
+      "events": [
+        {
+          "type": "img",
+          "value": "14.png",
           "author": "",
           "duration": "0"
         },
@@ -407,16 +437,160 @@
           "duration": ""
         },
         {
-          "type": "img",
-          "value": "2.jpeg",
-          "author": "",
-          "duration": ""
-        },
-        {
           "type": "fade",
           "value": "black",
           "author": "",
           "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "screen": "ImgChat",
+      "events": [
+        {
+          "type": "img",
+          "value": "23.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "<span>All right, final master challenge,</span><span>here we go!</span>",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "Unbelievable!",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "HESTIA",
+          "value": "Pretty much. Good luck!",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "screen": "HeadScreen",
+      "title": "Master Challenge",
+      "challenge": "4"
+    },
+    {
+      "id": 17,
+      "screen": "ImgChat",
+      "events": [
+        {
+          "type": "img",
+          "value": "23.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "...",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "HESTIA",
+          "value": "Are you done yet? It seemed like you were pretty close to solving it...",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "3.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "img",
+          "value": "10.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "img",
+          "value": "18.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "img",
+          "value": "19.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "img",
+          "value": "20.png",
+          "author": "",
+          "duration": "0"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "screen": "HeadScreen",
+      "title": "Final Challenge",
+      "challenge": ""
+    },
+    {
+      "id": 19,
+      "screen": "ImgChat",
+      "events": [
+        {
+          "type": "img",
+          "value": "20.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "...",
+          "duration": ""
+        },
+        {
+          "type": "text",
+          "author": "HESTIA",
+          "value": "Well? How’s it going, feel like -",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "3.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "img",
+          "value": "10.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "img",
+          "value": "18.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "img",
+          "value": "19.png",
+          "author": "",
+          "duration": "0"
+        },
+        {
+          "type": "img",
+          "value": "20.png",
+          "author": "",
+          "duration": "0"
         }
       ]
     }

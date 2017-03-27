@@ -12,15 +12,15 @@
         },
         {
           "type": "img",
-          "value": "desktop.png",
-          "author": "",
-          "duration": "2000"
-        },
-        {
-          "type": "img",
           "value": "desktop1.png",
           "author": "",
           "duration": "1000"
+        },
+        {
+          "type": "img",
+          "value": "desktop.png",
+          "author": "",
+          "duration": "2000"
         }
       ]
     },
@@ -506,31 +506,31 @@
           "type": "img",
           "value": "3.png",
           "author": "",
-          "duration": "0"
+          "duration": ""
         },
         {
           "type": "img",
           "value": "10.png",
           "author": "",
-          "duration": "0"
+          "duration": ""
         },
         {
           "type": "img",
-          "value": "18.png",
+          "value": "25.png",
           "author": "",
-          "duration": "0"
+          "duration": ""
         },
         {
           "type": "img",
           "value": "19.png",
           "author": "",
-          "duration": "0"
+          "duration": ""
         },
         {
           "type": "img",
           "value": "20.png",
           "author": "",
-          "duration": "0"
+          "duration": ""
         }
       ]
     },
@@ -564,33 +564,93 @@
         },
         {
           "type": "img",
-          "value": "3.png",
+          "value": "26.png",
           "author": "",
-          "duration": "0"
-        },
-        {
-          "type": "img",
-          "value": "10.png",
-          "author": "",
-          "duration": "0"
+          "duration": ""
         },
         {
           "type": "img",
           "value": "18.png",
           "author": "",
-          "duration": "0"
+          "duration": ""
         },
         {
           "type": "img",
-          "value": "19.png",
+          "value": "18.png",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "21.png",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "fade",
+          "value": "white",
+          "author": "",
+          "duration": "3000"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "screen": "ImgChat",
+      "events": [
+        {
+          "type": "img",
+          "value": "7.png",
           "author": "",
           "duration": "0"
         },
         {
+          "type": "text",
+          "author": "KENDALL",
+          "value": "...",
+          "duration": "500"
+        },
+        {
+          "type": "text",
+          "author": "HESTIA",
+          "value": "...",
+          "duration": "500"
+        },
+        {
           "type": "img",
-          "value": "20.png",
+          "value": "8.png",
           "author": "",
-          "duration": "0"
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "12.png",
+          "author": "",
+          "duration": ""
+        },
+        {
+          "type": "img",
+          "value": "9.png",
+          "author": "",
+          "duration": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "screen": "Img",
+      "events": [
+        {
+          "type": "img",
+          "value": "desktop3.png",
+          "author": "",
+          "duration": "3000"
+        },
+        {
+          "type": "img",
+          "value": "desktop4.png",
+          "author": "",
+          "duration": "9000"
         }
       ]
     }

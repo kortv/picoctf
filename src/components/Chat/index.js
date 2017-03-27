@@ -30,7 +30,7 @@ const Chat = ({ events, index, setScreen }) => {
     <div className="b-fullscreen_background">
       {/*Chat window*/}
       <div className="b-desktop_img">
-        <div className="b-desktop_chat">
+        {storyList.length ? <div className="b-desktop_chat">
           <div className="b-chat_header">
             <div className="b-chat_controls">
               <div />
@@ -49,7 +49,7 @@ const Chat = ({ events, index, setScreen }) => {
               Message...
           </div>
           </div>
-        </div>
+        </div> : null}
         <img src={`${COURSE_PATH}${lastSrc || "desktop1.png"}`} alt="" />
       </div>
 
